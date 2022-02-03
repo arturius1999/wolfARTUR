@@ -1,0 +1,131 @@
+
+ol, ul {
+    margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+p {
+  margin: 0 !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important; 
+
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header .header-link {
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase !important;
+    font-weight: 700;
+    margin-left: 27px;
+    transition: 0.5s;
+}
+
+header .header-link:hover {
+    color: #007d2f;
+}
+header .header_text{
+    background-color: #323232;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+header .header_text h1{
+    font-size: 62px;
+    color: #eaeaea;
+
+}
+header .header_text p{
+    margin-top: 30px;
+    font-size: 17px;
+    color: #fefefe;
+}
+/* **************************************
+header:end
+main:start
+****************************************** */
+
+main{
+    padding: 100px;
+    background: #f5f5f5;
+}
+main .main-box  h1{
+    font-size: 30px;
+    color: #171717;
+    
+}
+main .main-box p{
+    font-size: 16px;
+    color: #787878;
+}
+main .main-box span{
+    color: #171717;
+    font-weight: 600;
+}
+
+main .main-box  button{
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 23px 0;
+    border: none;
+    background: #007d2f;
+    width: 160px;
+    font-weight:600;
+    margin-bottom: 100px;
+    
+}
+/* **************************************
+header:end
+main:start
+****************************************** */
+footer {
+  
+    padding: 100px 20px;
+    color: #bcbcbc;
+    background: #141414;
+    font-size: 14px;
+}
+footer .footer-box .col-12{
+    margin-bottom: 30px;
+}
+footer .footer-box .footer-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footer-box h5{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+@media (max-width: 498px) {
+    footer .footer-box .footer-ul{
+        flex-direction: column;
+    }
+    footer .footer-box .footer-ul ul{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:991px) {
+
+    header .header__menu .navbar-nav {
+        background: #007d2f;
+        padding: 50px;
+    }
+
+    header .header__menu .header-link {
+        color: #fff;
+    }
+    
+    .skills .skills__text {
+        padding: 120px 55px 10% 128px;
+    }
+
+}
